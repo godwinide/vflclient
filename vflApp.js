@@ -4,7 +4,7 @@ const app = express();
 const puppeteer = require("puppeteer");
 
 (async() => {
-        const browser = await puppeteer.launch();
+        const browser = await puppeteer.launch({args: ['--no-sandbox', '--disable-setuid-sandbox']});
         const page = await browser.newPage();
         await page.goto("https://vsagent.bet9ja.com/bet9ja-cashier-league/login/");
     
