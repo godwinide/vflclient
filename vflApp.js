@@ -58,7 +58,7 @@ const puppeteer = require("puppeteer");
                   getResults();
                 },10000)
             })
-        },15000)
+        },10000)
 })()
 
 const PORT = 9091;
