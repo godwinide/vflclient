@@ -10,7 +10,7 @@ const puppeteer = require("puppeteer");
     
         page.evaluate(async()=> {
                 let username = "cashier18391-01";
-                let pass = "18473272";
+                let pass = "74776151";
                 let inputU = document.querySelectorAll("input")[0];
                 let inputP = document.querySelectorAll("input")[1];
                 let inputL = document.querySelector("a.btn");
